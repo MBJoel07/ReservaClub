@@ -1,0 +1,75 @@
+* { box-sizing: border-box; }
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f6f8;
+  margin: 0;
+  color: #1a1a1a;
+}
+.contenedor {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.tarjeta {
+  background: white;
+  border: 1px solid #e2e4e8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.fila {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  color: #444;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+input, select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #cfd3da;
+  font-size: 1rem;
+}
+button {
+  background: #2d5bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+button:disabled {
+  background: #c3c9d6;
+  cursor: not-allowed;
+}
+button.enlace {
+  background: none;
+  color: #2d5bff;
+  padding: 4px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+th, td {
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid #eee;
+}
+.error {
+  color: #c0392b;
+}
